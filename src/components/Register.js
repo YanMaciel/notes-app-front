@@ -8,7 +8,7 @@ const Register = () => {
     const [success, setSuccess] = useState(false);
     const [error, setError] = useState(false);
 
-    const URL = 'http://localhost:8000/v1/auth/register';
+    const URL = 'https://notesapp-api-app.herokuapp.com/v1/auth/register';
 
     const handleRegistration = async (e) => {
 
