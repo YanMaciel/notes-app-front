@@ -3,7 +3,8 @@ import { Redirect } from 'react-router-dom';
 import CreateArea from './CreateArea';
 import NoteElement from './NoteElement';
 
-const BASE_URL = 'https://notesapp-api-app.herokuapp.com/v1/notes/';
+
+const BASE_URL = 'http://notesapi.ecdb.com.br/v1/notes/';
 
 const Notes = () => {
 
