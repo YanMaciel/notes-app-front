@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://notesapp-api-app.herokuapp.com/',
+  baseURL: 'http://notesapi.ecdb.com.br/',
 });
 
 export default api;
